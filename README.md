@@ -8,7 +8,7 @@ jcaptcha基于patchca做了扩展实现，并整合了spring mvc，生成五颜�
 	 * @author hunng
 	 */
 	@Controller
-	public class SecurityController {
+	public class CaptchaController {
 	    private static ConfigurableCaptchaService ccs    = new ConfigurableCaptchaService();
 	    private static Random                     random = new Random();
 	    static {
